@@ -1,3 +1,10 @@
+授業で使用するソフトウェアの説明とダウンロードリンクを一覧で示します。\\
+アカウント登録が必要なソフトウェアもあります。合わせてアカウント作成しておきましょう（アカウントの管理も忘れずに！）
+- Googleアカウント
+- Autodeskアカウント
+- Unity ID
+
+
 | ソフト名 | 説明・使途 | ダウンロードリンク |
 | --- | --- | --- |
 | Afinia Studio | 3DプリンターAfiniaのドライバーソフト。3Dプリンターを動かす授業や実習で使う。 | [https://afinia.com/support/downloads/](https://afinia.com/support/downloads/) [choose-product/]|
@@ -8,6 +15,7 @@
 | Eagle | 回路設計用CAD。電気回路の設計に関する実習で使う。 | - (R5年度からKicad) |
 | FireAlpaca | ドローソフト。画像の加工・編集に使う。 | [https://firealpaca.com/ja/](https://firealpaca.com/ja/) |
 | Fusion360 | 3D-CAD。機械部品の設計やモデリングを行う授業や実習で使う。 | [https://manage.autodesk.com/products](https://manage.autodesk.com/products) |
+| Google Chrome | Webブラウザの1つ。Windows標準搭載のEdgeよりこちらを通常利用する。 | [https://www.google.com/intl/ja_jp/chrome/](https://www.google.com/intl/ja_jp/chrome/) |
 | IDLE | Pythonの統合開発環境。ローカルでPythonの実行が必要なときに使う。 | [https://www.python.org/downloads/](https://www.python.org/downloads/) |
 | Kicad | 回路設計用CAD。電気回路の設計に関する実習で使う。 | [https://www.kicad.org/download/windows/](https://www.kicad.org/download/windows/) |
 | OBS Studio | 配信・録画用ソフト。画面収録において画面のカスタマイズが必要なときに使う。 | [https://obsproject.com/ja/download](https://obsproject.com/ja/download) |
