@@ -1,6 +1,6 @@
 | ソフト名 | 説明・使途 | ダウンロードリンク |
 | --- | --- | --- |
-| Afinia Studio | 3DプリンターAfiniaのドライバーソフト。3Dプリンターを動かす授業や実習で使う。 | [https://afinia.com/support/downloads/](https://afinia.com/support/downloads/) |
+| Afinia Studio | 3DプリンターAfiniaのドライバーソフト。3Dプリンターを動かす授業や実習で使う。 | [https://afinia.com/support/downloads/](https://afinia.com/support/downloads/) [choose-product/]|
 | Algodoo | 2次元物理シミュレーター。力学やロボットに関する授業や実習で使う。 | [http://www.algodoo.com/download/](http://www.algodoo.com/download/) |
 | Anaconda | Pythonのパッケージ管理ソフト。ローカルでPythonを動かしたり仮想環境が必要なときに使う。 | [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution) |
 | Arduino IDE | ワンボードマイコンArduinoの統合開発環境。Arduinoを使った授業や実習で使う。 | [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software) |
