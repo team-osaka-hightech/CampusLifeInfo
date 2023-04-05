@@ -22,6 +22,7 @@
 | Processing | ビジュアルデザイン作成のための統合開発環境。 | [https://processing.org/download](https://processing.org/download) |
 | Raspberry Pi Imager | Raspberry PiのイメージをSDカードに書込む際に使う。 | [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/) |
 | Teams | 組織向けのコミュニケーション用ソフト。 | （別途資料にて） |
+| Thonny | Raspberry Pi Picoのファームウェア書込みに使うMicroPython環境 | [https://github.com/thonny/thonny/releases/](https://github.com/thonny/thonny/releases/) |
 | Unity | ゲーム開発プラットフォームだが、3次元の物理シミュレーターとしても使う。 | [https://unity.com/ja/download](https://unity.com/ja/download) |
 | Visual Studio | 様々なプログラミング言語に対応した統合開発環境。 | [https://visualstudio.microsoft.com/ja/downloads/](https://visualstudio.microsoft.com/ja/downloads/) |
 | VLC media player | 様々な形式の動画や音楽を再生できるメディアプレイヤー。 | [https://www.videolan.org/vlc/index.ja.html](https://www.videolan.org/vlc/index.ja.html) |
