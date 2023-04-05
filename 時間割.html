@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>時間割表</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <table id="timetable">
+    <thead>
+      <tr>
+        <th>学年</th>
+        <th>1年</th>
+        <th>2年</th>
+        <th>3年</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <script>
+    async function loadJsonData(url) {
+      const response = await fetch(url);
+      return await response.json();
+    }
+
+    async function displayTimetable() {
+      const jsonDataUrl = 'https://raw.githubusercontent.com/team-osaka-hightech/CampusLifeInfo/main/timetable.json';
+      const timetableData = await loadJsonData(jsonDataUrl);
+      const date = Object.keys(timetableData)[0];
+      const schedule = timetableData[date];
+
+      const timetable = document.getElementById('timetable');
+      const tbody = timetable.querySelector('tbody');
+
+      const grades = ['1年生', '2年生', '3年生'];
+
+      for (const dateKey in timetableData) {
+        const dateSchedule = timetableData[dateKey];
+        const dateRow = document.createElement('tr');
+        dateRow.innerHTML = `<td colspan="4">${dateKey}</td>`;
+        tbody.appendChild(dateRow);
+
+        for (let period = 1; period <= 4; period++) {
+          const periodStr = `${period}限`;
+          const row = document.createElement('tr');
+          row.innerHTML = `<td>${periodStr}</td>`;
+
+          for (const grade of grades) {
+            if (dateSchedule[grade] && dateSchedule[grade][periodStr]) {
+              const classInfo = dateSchedule[grade][periodStr];
+              row.innerHTML += `<td>${classInfo["授業名"]} - ${classInfo["担当教員"]} (${classInfo["教室"]})</td>`;
+            } else {
+              row.innerHTML += '<td>---</td>';
+            }
+          }
+
+          tbody.appendChild(row);
+        }
+      }
+
+    }
+
+    displayTimetable();
+  </script>
+</body>
+</html>
