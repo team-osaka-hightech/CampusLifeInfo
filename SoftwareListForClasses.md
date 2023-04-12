@@ -15,14 +15,14 @@
 | Blender | 3Dモデリングソフト。立物の造形を行うときに使う。 | [https://blender.jp/](https://blender.jp/) ||||
 | Eagle | 回路設計用CAD。電気回路の設計に関する実習で使う。 | - (R5年度からKicad) ||||
 | FireAlpaca | ドローソフト。画像の加工・編集に使う。 | [https://firealpaca.com/ja/](https://firealpaca.com/ja/) |
-| Fusion360 | 3D-CAD。機械部品の設計やモデリングを行う授業や実習で使う。 | [https://manage.autodesk.com/products](https://manage.autodesk.com/products) |△|○|○|
+| Fusion360 | 3D-CAD。機械部品の設計やモデリングを行う授業や実習で使う。 | [https://manage.autodesk.com/products](https://manage.autodesk.com/products) |○|○|○|
 | Google Chrome | Webブラウザの1つ。Windows標準搭載のEdgeよりこちらを通常利用する。 | [https://www.google.com/intl/ja_jp/chrome/](https://www.google.com/intl/ja_jp/chrome/) |○|○|○|
 | IDLE | Pythonの統合開発環境。ローカルでPythonの実行が必要なときに使う。 | [https://www.python.org/downloads/](https://www.python.org/downloads/) ||||
 | Kicad | 回路設計用CAD。電気回路の設計に関する実習で使う。 | [https://www.kicad.org/download/windows/](https://www.kicad.org/download/windows/) ||||
 | OBS Studio | 配信・録画用ソフト。画面収録において画面のカスタマイズが必要なときに使う。 | [https://obsproject.com/ja/download](https://obsproject.com/ja/download) ||||
 | Processing | ビジュアルデザイン作成のための統合開発環境。 | [https://processing.org/download](https://processing.org/download) |
 | Raspberry Pi Imager | Raspberry PiのイメージをSDカードに書込む際に使う。 | [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/) ||||
-| Teams | 組織向けのコミュニケーション用ソフト。 | （別途資料にて） ||○|○|
+| Teams | 組織向けのコミュニケーション用ソフト。 | （別途資料にて） |○|○|○|
 | Thonny | Raspberry Pi Picoのファームウェア書込みに使うMicroPython環境 | [https://github.com/thonny/thonny/releases/](https://github.com/thonny/thonny/releases/) ||||
 | Unity | ゲーム開発プラットフォームだが、3次元の物理シミュレーターとしても使う。 | [https://unity.com/ja/download](https://unity.com/ja/download) ||||
 | Visual Studio | 様々なプログラミング言語に対応した統合開発環境。 | [https://visualstudio.microsoft.com/ja/downloads/](https://visualstudio.microsoft.com/ja/downloads/) ||||
