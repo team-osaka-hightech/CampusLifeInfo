@@ -19,6 +19,7 @@
 | Google Chrome | Webブラウザの1つ。Windows標準搭載のEdgeよりこちらを通常利用する。 | [https://www.google.com/intl/ja_jp/chrome/](https://www.google.com/intl/ja_jp/chrome/) |○|○|○|
 | IDLE | Pythonの統合開発環境。ローカルでPythonの実行が必要なときに使う。 | [https://www.python.org/downloads/](https://www.python.org/downloads/) ||||
 | Kicad | 回路設計用CAD。電気回路の設計に関する実習で使う。 | [https://www.kicad.org/download/windows/](https://www.kicad.org/download/windows/) ||||
+| Microsoft365 | クラウド版Officeソフト。Word・Excel・PowerPointなど | （別途資料にて） |○|○|○|
 | OBS Studio | 配信・録画用ソフト。画面収録において画面のカスタマイズが必要なときに使う。 | [https://obsproject.com/ja/download](https://obsproject.com/ja/download) ||||
 | Processing | ビジュアルデザイン作成のための統合開発環境。 | [https://processing.org/download](https://processing.org/download) |
 | Raspberry Pi Imager | Raspberry PiのイメージをSDカードに書込む際に使う。 | [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/) ||||
