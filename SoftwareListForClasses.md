@@ -13,7 +13,7 @@
 | Anaconda | Pythonのパッケージ管理ソフト。ローカルでPythonを動かしたり仮想環境が必要なときに使う。 | [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution) ||||
 | Arduino IDE | ワンボードマイコンArduinoの統合開発環境。Arduinoを使った授業や実習で使う。 | [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software) ||○|○|
 | Blender | 3Dモデリングソフト。立物の造形を行うときに使う。 | [https://blender.jp/](https://blender.jp/) ||||
-| DesignSpark PCB | プリント基板の設計を行うCAD。電気回路の設計に関する実習で使う。 | [[https://blender.jp/](https://www.p-ban.com/kiban/com/csComDownloadDSpark.do?key=pcb)]([https://blender.jp/](https://www.p-ban.com/kiban/com/csComDownloadDSpark.do?key=pcb)) ||||
+| DesignSpark PCB | プリント基板の設計を行うCAD。電気回路の設計に関する実習で使う。 | [https://www.p-ban.com/kiban/com/](https://www.p-ban.com/kiban/com/csComDownloadDSpark.do?key=pcb)) ||||
 | Eagle | 回路設計用CAD。電気回路の設計に関する実習で使う。 | - (R5年度からKicad) ||||
 | FireAlpaca | ドローソフト。画像の加工・編集に使う。 | [https://firealpaca.com/ja/](https://firealpaca.com/ja/) |
 | Fusion360 | 3D-CAD。機械部品の設計やモデリングを行う授業や実習で使う。 | [https://manage.autodesk.com/products](https://manage.autodesk.com/products) |○|○|○|
