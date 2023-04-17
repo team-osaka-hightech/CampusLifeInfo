@@ -10,7 +10,7 @@
 | --- | --- | --- | :-: | :-: | :-: |
 | Afinia Studio | 3DプリンターAfiniaのドライバーソフト。3Dプリンターを動かす授業や実習で使う。 | [https://afinia.com/support/downloads/](https://afinia.com/support/downloads/) [choose-product/]|||○|
 | Algodoo | 2次元物理シミュレーター。力学やロボットに関する授業や実習で使う。 | [http://www.algodoo.com/download/](http://www.algodoo.com/download/) |○|○||
-| Anaconda | Pythonのパッケージ管理ソフト。ローカルでPythonを動かしたり仮想環境が必要なときに使う。 | [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution) ||○||
+| Anaconda | Pythonのパッケージ管理ソフト。ローカルでPythonを動かしたり仮想環境が必要なときに使う。 | [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution) |○|○||
 | Arduino IDE | ワンボードマイコンArduinoの統合開発環境。Arduinoを使った授業や実習で使う。 | [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software) ||○|○|
 | Blender | 3Dモデリングソフト。立物の造形を行うときに使う。 | [https://blender.jp/](https://blender.jp/) ||||
 | DesignSpark PCB | プリント基板の設計を行うCAD。電気回路の設計に関する実習で使う。 | [https://www.p-ban.com/kiban/com/](https://www.p-ban.com/kiban/com/csComDownloadDSpark.do?key=pcb) |○|||
