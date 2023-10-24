@@ -1,25 +1,52 @@
 async function loadTimetable() {
   try {
-    const response = await fetch('https://raw.githubusercontent.com/team-osaka-hightech/CampusLifeInfo/main/timetable.json');
+    const response = await fetch('https://raw.githubusercontent.com/your-username/your-repository/main/timetable.json');
     const data = await response.json();
 
-    const tbody = document.querySelector('#timetable tbody');
+    const container = document.getElementById('timetable-container');
     
-    // ここで時間割データをHTMLに変換しています
-    // ただし、具体的な形式はデータと要件によって異なる可能性があります
-    for (const id of Object.keys(data).sort()) {
-      const row = document.createElement('tr');
-      const period = document.createElement('td');
-      period.textContent = id.slice(-2);
-      row.appendChild(period);
-      for (let grade = 1; grade <= 3; grade++) {
-        const cell = document.createElement('td');
-        if (id.includes(grade.toString())) {
-          cell.textContent = data[id].subject;
+    const dates = [...new Set(Object.keys(data).map(id => id.slice(0, 8)))];
+    for (const date of dates.sort()) {
+      const dateHeader = document.createElement('div');
+      dateHeader.classList.add('date-header');
+      dateHeader.textContent = `${date.slice(0, 4)}/${date.slice(4, 6)}/${date.slice(6, 8)}`;
+      container.appendChild(dateHeader);
+
+      const table = document.createElement('table');
+      const thead = document.createElement('thead');
+      const tbody = document.createElement('tbody');
+      const headRow = document.createElement('tr');
+
+      ['時限', '1年生', '2年生', '3年生'].forEach(text => {
+        const th = document.createElement('th');
+        th.textContent = text;
+        headRow.appendChild(th);
+      });
+
+      thead.appendChild(headRow);
+      table.appendChild(thead);
+      table.appendChild(tbody);
+      container.appendChild(table);
+
+      for (let period = 1; period <= 4; period++) {
+        const row = document.createElement('tr');
+        const periodCell = document.createElement('td');
+        periodCell.textContent = `${period}限`;
+        row.appendChild(periodCell);
+
+        for (let grade = 1; grade <= 3; grade++) {
+          const id = `${date}${grade}${period}`;
+          const cell = document.createElement('td');
+          if (data[id]) {
+            cell.innerHTML = `
+              <strong>${data[id].subject}</strong><br>
+              ${data[id].teacher ? data[id].teacher : ''}${data[id].teacher && data[id].room ? ', ' : ''}${data[id].room ? data[id].room : ''}
+            `;
+          }
+          row.appendChild(cell);
         }
-        row.appendChild(cell);
+        tbody.appendChild(row);
       }
-      tbody.appendChild(row);
     }
   } catch (error) {
     console.error('Error loading timetable:', error);
