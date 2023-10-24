@@ -1,6 +1,6 @@
 async function loadTimetable() {
   try {
-    const response = await fetch('https://raw.githubusercontent.com/your-username/your-repository/main/timetable.json');
+    const response = await fetch('https://raw.githubusercontent.com/team-osaka-hightech/CampusLifeInfo/main/timetable.json');
     const data = await response.json();
 
     const tbody = document.querySelector('#timetable tbody');
