@@ -8,10 +8,13 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>時間割表</h1>
-  <div id="timetable-container">
-    <!-- 時間割表はここに挿入されます -->
+  <div id="controls">
+    <button onclick="setDisplayMode('1week')">1週表示</button>
+    <button onclick="setDisplayMode('2week')">2週表示</button>
+    <button onclick="setDisplayMode('all')">全日程表示</button>
   </div>
+  <h1>時間割表</h1>
+  <div id="timetable-container"></div>
   <script src="script.js"></script>
 </body>
 </html>

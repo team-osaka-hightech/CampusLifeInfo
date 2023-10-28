@@ -36,3 +36,15 @@ thead {
   font-size: 1.2em;
   margin-top: 20px;
 }
+
+#controls {
+  position: fixed;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+button {
+  display: block;
+  margin-bottom: 10px;
+}
