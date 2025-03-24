@@ -36,7 +36,7 @@
 | サービス名 | 説明・使途 | アクセスリンク |
 | --- | --- | --- |
 | Canva | スライドやチラシをデザインできるツール | [https://www.canva.com/](https://www.canva.com/) |
-| Googleドライブ |各種ファイルの保存なb書として使用します| [https://drive.google.com/drive/my-drive](https://drive.google.com/drive/my-drive) |
+| Googleドライブ |各種ファイルの保存場所として使用します| [https://drive.google.com/drive/my-drive](https://drive.google.com/drive/my-drive) |
 | Colaboratory | Pythonの実行環境として使用します | [https://colab.research.google.com/](https://colab.research.google.com/?hl=ja) |
 | roboflow | AIモデルの学習のための画像のアノテーションを行います |[https://roboflow.com/](https://roboflow.com/) |
 | GitHub | ソースコードのバージョン管理として使用します | [https://github.com/](https://github.com/) |
