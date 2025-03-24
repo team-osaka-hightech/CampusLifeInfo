@@ -6,7 +6,7 @@
 - Unity ID
 
 
-| ソフト名 | 説明・使途 | ダウンロードリンク | 2023生 | 2022生 | 2021生 |
+| ソフト名 | 説明・使途 | ダウンロードリンク | 1年 | 2年 | 3年 |
 | --- | --- | --- | :-: | :-: | :-: |
 | Afinia Studio | 3DプリンターAfiniaのドライバーソフト。3Dプリンターを動かす授業や実習で使う。 | [https://afinia.com/support/downloads/](https://afinia.com/support/downloads/) [choose-product/]|||○|
 | Algodoo | 2次元物理シミュレーター。力学やロボットに関する授業や実習で使う。 | [http://www.algodoo.com/download/](http://www.algodoo.com/download/) |○|○||
